@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "src/proto/a.proto";
+import "src/proto/b.proto";
+
+package p;
+
+message SReq {
+  A req = 1;
+}
+
+message SRsp {
+  B rsp = 1;
+}
+
+service S {
+  rpc M(SReq) returns M(SRsp) {}
+}
