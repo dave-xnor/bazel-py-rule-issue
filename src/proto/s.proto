@@ -14,5 +14,5 @@ message SRsp {
 }
 
 service S {
-  rpc M(SReq) returns M(SRsp) {}
+  rpc M(SReq) returns (SRsp) {}
 }
