@@ -1,5 +1,5 @@
 # bazel-py-rule-issue
-Try to demonstrate a problem with https://github.com/stackb/rules_proto - or possibly something else (including my lack of knowledge) w.r.t. python wrappers for protobufs
+Try to demonstrate a problem with https://github.com/stackb/rules_proto - or possibly something else (including my lack of knowledge) - w.r.t. python wrappers for protobufs
 
 ## Failure case
 
